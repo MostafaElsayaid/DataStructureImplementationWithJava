@@ -15,7 +15,7 @@ public class QueueImp {
         queue.add(40);
         //remove elements from the queue
         queue.remove();
-        queue.add(20);
+        queue.remove(20);
         //update the queue element
         Integer [] elements = queue.toArray(new Integer[0]);
         elements[2] = 200;
